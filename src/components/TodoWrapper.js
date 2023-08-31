@@ -1,9 +1,9 @@
 import React from 'react'
-
+import TodoForm from './TodoForm'
 const TodoWrapper = () => {
   return (
-    <div>
-      <h1>TodoWrapper</h1>
+    <div className='TodoWrapper'>
+      <TodoForm />
     </div>
   )
 }
